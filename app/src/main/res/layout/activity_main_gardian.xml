@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".Main_gardian">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="58px" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="163px" />
+
+    <FrameLayout
+        android:layout_width="1382px"
+        android:layout_height="448px"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        tools:layout_editor_absoluteY="134dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95px"
+            android:layout_marginLeft="95px"
+            android:layout_marginTop="86px"
+            android:text="보호인 이름"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85px"
+            android:layout_marginLeft="85px"
+            android:layout_marginTop="273px"
+            android:text="보호인의 패턴 보기"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="220px"
+            android:layout_height="100px"
+            android:layout_marginStart="1104px"
+            android:layout_marginLeft="1104px"
+            android:layout_marginTop="121px"
+            android:shadowColor="#000000"
+            android:text="모니터링"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="8sp"
+            app:backgroundTint="#FFFFFF"
+            app:iconPadding="0dp"
+            app:strokeColor="#000000" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="90px"
+            android:layout_height="90px"
+            android:layout_marginStart="1234px"
+            android:layout_marginLeft="1234px"
+            android:layout_marginTop="288px"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="394dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내 가족 리스트"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        tools:layout_editor_absoluteY="94dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
